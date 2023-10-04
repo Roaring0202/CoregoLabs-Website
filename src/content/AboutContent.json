@@ -1,0 +1,16 @@
+{
+  "title": "Building for the future",
+  "text": "Corego's venture is rooted in the Agile Coretime RFC, envisioning a user-friendly interface for Coretime management.",
+  "section": [
+    {
+      "title": "What does Agile Coretime provide for you?",
+      "content": "Agile Coretime enables you to develop, test, and deploy your applications on Polkadot with utmost efficiency, minimizing resource consumption.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "What tools does Corego offer?",
+      "content": "Corego provides you with tools designed for Coretime manipulation and data tracking, aiming to accelerate development on Polkadot.",
+      "icon": "notes.svg"
+    }
+  ]
+}
