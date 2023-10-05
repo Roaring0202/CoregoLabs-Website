@@ -52,7 +52,8 @@ const Footer = () => {
               <SocialLink href="https://twitter.com/coregolabs" src="twitter.svg" />
 
               <SocialLink href="/" src="linkedin.svg" />
-              <SocialLink href="/" src="medium.svg" />
+              <SocialLink href="https://medium.com/@coregolabs" src="medium.svg" />
+
             </FooterContainer>
           </Row>
         </Container>
