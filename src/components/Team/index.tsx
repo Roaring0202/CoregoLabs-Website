@@ -29,7 +29,7 @@ const Team = () => {
     },
     {
       name: "Sergej Sakac",
-      description: "Founder",
+      description: "Co-Founder",
       imageUrl: "sergej.jpeg",
     },
     // Add more team members here
