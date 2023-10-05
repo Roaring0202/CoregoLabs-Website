@@ -39,9 +39,12 @@ const Home = () => {
       <div id="team">
         <Team />
       </div>
-      <Contact
+      <ContentBlock
+        type="left"
         title={ContactContent.title}
         content={ContactContent.text}
+        section={ContactContent.section}
+        icon="waving.svg"
         id="contact"
       />
     </Container>
