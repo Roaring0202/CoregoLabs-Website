@@ -1,6 +1,10 @@
-import React from 'react';
-import Container from '../../common/Container';
-import { MemberName, TeamContainer, TeamMemberImage, TeamMembers } from './styles';
+import React from "react";
+import {
+  MemberName,
+  TeamContainer,
+  TeamMemberImage,
+  TeamMembers,
+} from "./styles";
 
 interface Props {
   name: string;
@@ -19,14 +23,14 @@ const TeamMember = ({ name, description, imageUrl }: Props) => (
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Julian Saks',
-      description: 'Founder',
-      imageUrl: 'julian.jpeg',
+      name: "Julian Saks",
+      description: "Founder",
+      imageUrl: "julian.jpeg",
     },
     {
-      name: 'Sergej Sakac',
-      description: 'Founder',
-      imageUrl: 'sergej.jpeg',
+      name: "Sergej Sakac",
+      description: "Founder",
+      imageUrl: "sergej.jpeg",
     },
     // Add more team members here
   ];

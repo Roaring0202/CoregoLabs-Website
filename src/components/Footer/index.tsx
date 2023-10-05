@@ -1,36 +1,16 @@
-import { Row, Col } from "antd";
+import { Row } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 
-import i18n from "i18next";
-import {
-  FooterSection,
-  Title,
-  NavLink,
-  Extra,
-  LogoContainer,
-  Para,
-  Large,
-  Chat,
-  Empty,
-  FooterContainer,
-  Language,
-  Label,
-  LanguageSwitch,
-  LanguageSwitchContainer,
-} from "./styles";
+import { NavLink, Extra, LogoContainer, FooterContainer } from "./styles";
 
 interface SocialLinkProps {
   href: string;
   src: string;
 }
 
-const Footer = ({ t }: any) => {
-  const handleChange = (language: string) => {
-    i18n.changeLanguage(language);
-  };
-
+const Footer = () => {
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
       <a
@@ -66,21 +46,12 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                href="https://github.com/CoregoLabs/"
                 src="github.svg"
               />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
-              />
-              <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
-              />
+              <SocialLink href="/" src="twitter.svg" />
+              <SocialLink href="/" src="linkedin.svg" />
+              <SocialLink href="/" src="medium.svg" />
             </FooterContainer>
           </Row>
         </Container>
