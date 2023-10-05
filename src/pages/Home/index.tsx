@@ -2,7 +2,7 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import ProductContent from "../../content/ProductContent.json";
+import ContactContent from "../../content/ContactContent.json";
 import Team from "../../components/Team";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -36,7 +36,14 @@ const Home = () => {
         icon="blocks.png"
         id="about"
       />
-      <Team />
+      <div id="team">
+        <Team />
+      </div>
+      <Contact
+        title={ContactContent.title}
+        content={ContactContent.text}
+        id="contact"
+      />
     </Container>
   );
 };
