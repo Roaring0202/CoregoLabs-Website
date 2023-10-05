@@ -49,7 +49,8 @@ const Footer = () => {
                 href="https://github.com/CoregoLabs/"
                 src="github.svg"
               />
-              <SocialLink href="/" src="twitter.svg" />
+              <SocialLink href="https://twitter.com/coregolabs" src="twitter.svg" />
+
               <SocialLink href="/" src="linkedin.svg" />
               <SocialLink href="/" src="medium.svg" />
             </FooterContainer>
