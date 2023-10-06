@@ -34,3 +34,13 @@ export const TeamMemberImage = styled("img")`
 export const MemberName = styled("h4")`
     font-size: 20px;
 `;
+
+export const MemberRole = styled("p")`
+    font-size: 16px;
+    font-weight: bold;
+`;
+
+export const MemberDescription = styled("p")`
+    width: 300px;
+    font-size: 16px;
+`;
