@@ -1,0 +1,5 @@
+{
+    "title": "Coretime Abstractions",
+    "text": "The coretime chain allows teams to partition, interlace, assign, and transfer cores. We look to create intuitive UI abstractions to simplify these actions, ensuring both technical and non-technical teams can easily manipulate their regions. ",
+    "section": []
+}
