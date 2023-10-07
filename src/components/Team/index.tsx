@@ -36,7 +36,7 @@ const Team = () => {
       name: "Sergej Sakac",
       role: "Co-Founder",
       description: "Sergej is a member of the Polkadot Fellowship. He has been an external core contributor on substrate and polkadot for more than a year now. Sergej is also a recent Engineering alumni of the Polkadot Blockchain Academy (PBA) held in Berkeley.",
-      imageUrl: "sergej.jpeg",
+      imageUrl: "sergej.jpg",
     },
   ];
 
