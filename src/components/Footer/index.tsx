@@ -37,10 +37,10 @@ const Footer = () => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="corego.svg"
+                  src="corego.png"
                   aria-label="homepage"
                   width="101px"
-                  height="50px"
+                  height="auto"
                 />
               </LogoContainer>
             </NavLink>
@@ -51,7 +51,7 @@ const Footer = () => {
               />
               <SocialLink href="https://twitter.com/coregolabs" src="twitter.svg" />
 
-              <SocialLink href="/" src="linkedin.svg" />
+              <SocialLink href="https://t.me/coregolabs" src="telegram.svg" />
               <SocialLink href="https://medium.com/@coregolabs" src="medium.svg" />
 
             </FooterContainer>
