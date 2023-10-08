@@ -23,7 +23,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="corego.svg"
+        icon="corego.png"
         id="intro"
       />
       <MiddleBlock
