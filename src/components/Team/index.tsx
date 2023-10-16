@@ -41,6 +41,12 @@ const Team = () => {
   ];
 
   const teamMembers: Props[]  = [
+    {
+      name: "Oliver Lim",
+      role: "Full-stack developer",
+      description: "Oliver is a full stack blockchain developer who was involved in 3 projects granted by the Web3 Foundation.",
+      imageUrl: "Oliver.jpg",
+    },
     /*{
       name: "NB Team",
       role: "Designer",
